@@ -1,0 +1,9 @@
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\bin\Debug\FundaAssignment.Services.dll
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\bin\Debug\FundaAssignment.Services.pdb
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\bin\Debug\FundaAssignment.Entities.dll
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\bin\Debug\FundaAssignment.Entities.pdb
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\obj\Debug\FundaAssignment.Services.csprojResolveAssemblyReference.cache
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\obj\Debug\FundaAssignment.Services.dll
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Services\obj\Debug\FundaAssignment.Services.pdb

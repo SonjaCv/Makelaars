@@ -1,0 +1,77 @@
+﻿@model FundaAssignment.Models.MakelaarView
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Makelaars for Amsterdam</h3>
+<table class="table">
+   <tr>
+       <th>Id</th>  
+       <th>Name</th>    
+       <th>Proprties Count</th>
+   </tr>
+    @foreach (var makelaar in Model.TopMakelaarsForAmsterdam)
+    {
+        <tr>
+            <td>@makelaar.MakelaarId</td>
+            <td>@makelaar.MakelaarName</td>   
+            <td>
+                @makelaar.PropertiesCount
+                <table>
+                    <tr>
+                        <th>Woonplaats</th>
+                        <th>Adres</th>
+                        <th>Antal Kamers</th>
+                        <th>Tagline</th>
+                    </tr>
+                    @foreach(var propertyDetails in makelaar.PropertyDetails)
+                    {
+                        <tr>
+                            <td>@propertyDetails.Woonplaats</td>
+                            <td>@propertyDetails.Adres</td>
+                            <td>@propertyDetails.AntalKamers</td>
+                            <td>@propertyDetails.Tagline</td>
+                        </tr>
+                    }
+                </table>
+            </td>         
+        </tr>
+    }    
+</table>
+
+<h3>Makelaars for Amsterdam properties with a garden</h3>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Proprties Count</th>
+    </tr>
+    @foreach (var makelaar in Model.TopMakelaarsForAmsterdamWithTuin)
+    {
+        <tr>
+            <td>@makelaar.MakelaarId</td>
+            <td>@makelaar.MakelaarName</td>
+            <td>
+                @makelaar.PropertiesCount
+                <table>
+                    <tr>
+                        <th>Woonplaats</th>
+                        <th>Adres</th>
+                        <th>Antal Kamers</th>
+                        <th>Tagline</th>
+                    </tr>
+                    @foreach (var propertyDetails in makelaar.PropertyDetails)
+                    {
+                        <tr>
+                            <td>@propertyDetails.Woonplaats</td>
+                            <td>@propertyDetails.Adres</td>
+                            <td>@propertyDetails.AntalKamers</td>
+                            <td>@propertyDetails.Tagline</td>
+                        </tr>
+                    }
+                </table>
+            </td> 
+        </tr>
+    }    
+</table>

@@ -1,0 +1,4 @@
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Entities\bin\Debug\FundaAssignment.Entities.dll
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Entities\bin\Debug\FundaAssignment.Entities.pdb
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Entities\obj\Debug\FundaAssignment.Entities.dll
+C:\Users\Sonja\Desktop\Funda\FundaAssignment\FundaAssignment.Entities\obj\Debug\FundaAssignment.Entities.pdb
